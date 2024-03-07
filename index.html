@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 767px)" href="mobile.css">
+<!-- <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="./css/tablet.css"> -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/img/web-icon.png">
+
+  <title>ClimaVivo</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="search-box">
+      <i class='bx bxs-map'></i>
+      <input type="text" placeholder="Ingresa tu ubicación">
+      <button class="bx bx-search"></button>
+    </div>
+
+    <div class="weather-box">
+      <div class="box">
+        <div class="weather-info">
+          <div class="weather">
+            <img src="/img/cloud.png" alt="Nublado">
+            <p class="temperature">0<span>°C</span></p>
+            <p class="description">Nublado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="weather-details">
+      <div class="humidity">
+        <i class='bx bx-water'></i>
+        <div class="info-humidity">
+          <span>0%</span>
+          <p>Humedad</p>
+        </div>
+      </div>
+
+      <div class="wind">
+        <i class='bx bx-wind'></i>
+        <div class="info-wind">
+          <span>0km/h</span>
+          <p>Viento</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="not-found">
+      <div class="box">
+        <img src="/img/404.png" alt="No encontrado">
+        <p>Oops ! Ubicación no encontrada</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
